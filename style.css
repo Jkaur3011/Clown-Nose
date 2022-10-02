@@ -1,0 +1,23 @@
+h1{
+    font-size: 25px !important;
+}
+
+#take_pic:hover{
+    background-color: greenyellow;
+}
+
+canvas{
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    animation-name: identifier;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes identifier {
+    from{box-shadow: 2px 2px 40px red}
+    to{box-shadow: 2px 2px 40px yellow};
+}
+
